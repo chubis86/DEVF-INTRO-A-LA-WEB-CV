@@ -5,11 +5,68 @@ body{
 .header{
     position:fixed;
     top:0px;
-    margin-bottom:30px;
     width:100%;
-    height:auto;
+    height:50px;
     background-color:black;
     color:white;
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    margin:0 auto;
+    margin-top:50px;
+    width:100%;    
+}
+
+.cuerpo{
+    width:70%;
+    max-width: 1020px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.perfil{
+    width:300px;
+    text-align:center;
+   
+}
+
+.name{
+    width:100%;
+    height:auto;
+    border: 1px solid black;
+    border-radius: 13px;
+}
+
+.habilidades{
+    text-align:left;
+}
+
+.skills{
+    font-size:1.3em;
+}
+
+.informacion{
+    width:300px;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.imagenfinal{
+    width:70%;
+    height:auto;
+    margin:0 auto;
+    text-align:center;
+}
+
+.image-profile{
+    width:70%;
+    max-width: 1020px;
+    height:auto;
+    border: 1px solid black;
+    border-radius: 13px;
 }
